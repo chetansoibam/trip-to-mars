@@ -1,0 +1,39 @@
+
+
+callbacks vs events
+
+callback
+
+getThem(param,function(err,items){
+	//check fo errror
+	//operate on array
+});
+
+events
+var result = getThem(param);
+
+result.on('item',function(i){
+	// do someting on one item
+});
+
+result.on('done',function(){
+	// no more items
+});
+
+result.on('error',function(err){
+	// react to error
+});
+
+/////////////
+evet module
+
+///////
+some of the  event
+
+nextTick -> start event -> tick of event
+
+start
+data
+end
+
+
