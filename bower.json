@@ -1,0 +1,21 @@
+{
+  "name": "trip-to-mars",
+  "description": "trip to mars",
+  "main": "index.js",
+  "authors": [
+    "soibam chetan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/chetansoibam/trip-to-mars",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
