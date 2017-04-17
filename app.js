@@ -12,6 +12,7 @@ app.use(express.static('src/views'));
 
 app.get('/',function(req , res){
   res.send('Hello world');
+  console.log(res);
 });
 
 app.get('/books',function(req , res){
